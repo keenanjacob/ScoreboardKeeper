@@ -16,7 +16,7 @@ int main()
 
   cout<<"How many competitors? ";
   cin>>teams;
-  cout<<"How many scoring periods? ";
+  cout<<"How many scoring periods? "<<endl;
   cin>>periods;
 
   if( teams < MIN_TEAMS || periods < MIN_PERIODS || 
@@ -34,6 +34,7 @@ int main()
    {
      board[row].resize(periods);
    }
+   cout<< "SCOREBOARD"<<endl;
    for ( int row=0; row<board.size(); row++)
    {
      cout<< "Player "<<row+1<< ": ";

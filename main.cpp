@@ -16,7 +16,7 @@ int main()
 
   cout<<"How many competitors? ";
   cin>>teams;
-  cout<<"How many scoring periods? "<<endl;
+  cout<<"How many scoring periods? ";
   cin>>periods;
 
   if( teams < MIN_TEAMS || periods < MIN_PERIODS || 
